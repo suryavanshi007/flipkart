@@ -22,7 +22,10 @@
                             <td><img style="width: 120px;" src="{{item.image}}" alt=""></td>
                             <td style="width: 25%;">{{item.description}}</td>
                             <th style="width: 12%;">{{item.price}}</th>
-                            <td style="width: 12%;">{{item.quantity}}</td>
+                            <td style="width: 12%;">
+                                <button type="button" class="btn" (click)="inc(item)"><i class="fa fa-plus" style="color:white;border: 2px solid red; background-color: red;"></i></button>
+                                {{item.quantity}}
+                            <button type="button" class="btn" (click)="dec(item)"><i class="fa fa-minus" style="color:white;border: 2px solid red; background-color: red;"></i></button></td>
                             <td style="width: 12%;">{{item.total}}</td>
                             <td>
                                 <button (click)="removeItem(item)" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
@@ -32,7 +35,7 @@
                             <td colspan="4"></td>
                             <td><button (click)="emptycart()" class="btn btn-danger">Empty Cart</button></td>
                             <td><button routerLink="/products" class="btn btn-primary">Shop More</button></td>
-                            <td><button class="btn btn-success">Checkout</button></td>
+                            <td><button class="btn btn-success" routerLink="/checkout">Checkout</button></td>
                             <td><strong>Grand Total : ${{grandTotal}}</strong></td>
                         </tr>
                     </tbody>

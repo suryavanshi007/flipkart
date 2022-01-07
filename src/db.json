@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 101,
+      "firstName": "Krishna",
+      "lastName": "Suryavanshi",
+      "email": "ksuryavanshi@gmail.com",
+      "location": "Bangalore"
+    },
+    {
+      "id": 101,
+      "firstName": "Rahul",
+      "lastName": "Singh",
+      "email": "ksuryavanshi@gmail.com",
+      "location": "Bangalore"
+    },
+    {
+      "id": 101,
+      "firstName": "Nikhil",
+      "lastName": "Singh",
+      "email": "ksurjklsjflyavanshi@gmail.com",
+      "location": "Bangalore"
+    },
+    {
+      "id": 101,
+      "firstName": "Sachin",
+      "lastName": "Singh",
+      "email": "Sahjinifkuryavanshi@gmail.com",
+      "location": "Bangalore"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "krishna",
+      "email": "krishn@gmail.com",
+      "password": "123456",
+      "mobile": 7067035216,
+      "id": 1
+    },
+    {
+      "fullname": "anmol",
+      "email": "anmol@gmail.com",
+      "password": "123456",
+      "mobile": 9200611572,
+      "id": 2
+    },
+    {
+      "fullname": "",
+      "email": "charan@gmail.com",
+      "password": "",
+      "mobile": "",
+      "id": 3
+    }
+  ]
+}

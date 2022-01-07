@@ -1,5 +1,5 @@
 <header>
-    <div class="navbar navbar-dark bg-primary shadow-sm">
+    <div class="navbar">
         <div class="navbar-brand align-item-center d-flex">
             <i style="font-size: 40px;" class="fas fa-shipping-fast">&nbsp;
                 
@@ -12,9 +12,20 @@
 
 
         </div>
-        <button routerLink="cart" class="btn btn-primary">
+        
+        <div class="but">
+            <button class="btn btn-warning" routerLink="products">Home</button>
+            <button class="btn btn-warning" routerLink="login">Login</button>
+            <button class="btn btn-warning" routerLink="about">About</button>
+            <button class="btn btn-warning" routerLink="contact">Contact Us</button>
+            <button class="btn btn-warning" routerLink="signup">Register</button>
+            
+        </div>
+        <button routerLink="cart" class="btn btn-Primary">
             <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
             <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
         </button>
+
     </div>
 </header>
+
